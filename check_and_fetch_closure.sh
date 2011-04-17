@@ -20,10 +20,9 @@ then
   echo ""
   echo "################################################################################"
   echo "# Closure compiler exists, 'rm closure/compiler.jar' and re-run to fetch latest."
-  echo ""
 else
   echo ""
-  echo "##########################################"
+  echo "########$##################################"
   echo "# Fetching and extracting closure compiler."
   echo ""
   # fetch the closure compiler
