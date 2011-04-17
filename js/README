@@ -1,1 +1,2 @@
-Javascript is compiled from the src directory and placed here.  The compile.sh and concatenate.sh scripts are used to create the contents of this directory.
+Javascript is compiled from the src directory and placed here.  The compile.sh
+and concatenate.sh scripts are used to create the contents of this directory.

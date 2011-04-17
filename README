@@ -1,11 +1,21 @@
 Expensive Clock
 ---------------
 
-Demo application written by Tony Scelfo (tony@tonyscelfo.com) showing how to use the closure compiler to build a compiled/obfuscated javascript application and launch it on app engine.  The application allows someone to create a large HTML5 animated clock that spans across multiple monitors, such as eight macbook pro laptops sitting next to each other.
+Demo application written by Tony Scelfo (tony@tonyscelfo.com) showing how to
+use the closure compiler to build a compiled/obfuscated javascript application
+and launch it on app engine.  The application allows someone to create a large
+HTML5 animated clock that spans across multiple monitors, such as eight macbook
+pro laptops sitting next to each other.
 
-Check out the source and run "compile.sh" or "concatenate.js" to fetch all the closure dependencies and then produce application javascript code from the javascript source files in the src/ directory.  Make sure that you run one of these scripts to create application javascript in the js/ folder, otherwise the application will not work.
+Check out the source and run "compile.sh" or "concatenate.js" to fetch all the
+closure dependencies and then produce application javascript code from the
+javascript source files in the src/ directory.  Make sure that you run one of
+these scripts to create application javascript in the js/ folder, otherwise the
+application will not work.
 
-The app engine application is configured with app.yaml and can be imported into the standard google app engine launcher by choosing "File -> Add Existing Application..."
+The app engine application is configured with app.yaml and can be imported into
+the standard google app engine launcher by choosing "File -> Add Existing
+Application..."
 
 The latest version can be seen running at http://expensiveclock.appspot.com/
 

@@ -1,1 +1,3 @@
-This directory contains the closure utility functions.  The check.sh script ensures that the closure builder and the closure compiler are downloaded.  It is called from both the compile.sh and concatenate.sh script.
+This directory contains the closure utility functions.  The check.sh script
+ensures that the closure builder and the closure compiler are downloaded.  It
+is called from both the compile.sh and concatenate.sh script.
