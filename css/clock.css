@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+  color: #eee;
+  font-family: helvetica;
+  overflow: hidden;
+}
+.clock {
+  -webkit-text-stroke: 1px black;
+  -webkit-transform-origin: 0 1em;
+  -webkit-transition: -webkit-transform 0.7s ease-out; 
+  position: absolute;
+  text-shadow: rgba(64, 64, 64, 0.496094) 3px 2px 0px;
+  text-stroke: 1px black;
+  top: 0;
+  transform-origin: 0 1em;
+  transition: transform 0.7s ease-out; 
+  z-index: 0;
+}
+.flip {
+  -webkit-transform: rotateX(90deg) skew(-10deg);
+  transform: rotateZ(-90deg) skew(-10deg);
+  z-index: 1;
+}
+.number {
+  position: absolute;
+  top: 0;
+}

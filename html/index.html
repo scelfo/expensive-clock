@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Clock</title>
+    <script src="/js/clock.js?v={{js_version}}"></script>
+    <link rel="stylesheet" href="/css/clock.css"></style>
+  </head>
+  <body>
+    <form id="form" onsubmit="return tonyscelfo.submit('form');">
+      Offset: <input name="offset" value="0" size="1" type="text" />
+      Length: <input name="length" value="8" size="1" type="text" />
+      Size: <input name="size" value="400" size="8" type="text" />
+      <input type="submit" />
+    </form>
+    <div>
+      For 13:08:45, specify length 2, and offset 3 to get :08.
+    </div>
+  </body>
+</html>
