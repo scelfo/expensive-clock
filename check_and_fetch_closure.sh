@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Downloading/updating closure components:"
 
 if [ -d closure/closure-library ]
 then
