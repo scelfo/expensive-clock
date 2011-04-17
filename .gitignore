@@ -1,5 +1,5 @@
-js/*.js
 closure/closure-library/
 closure/closurebuilder.py
 closure/compiler.jar
 compiler-latest.zip
+js/*.js
